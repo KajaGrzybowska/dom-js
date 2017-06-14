@@ -1,17 +1,15 @@
 //scripts.js
 
-var buttonClass = document.getElementsByClassName('button');
-console.log(buttonClass);
-console.log(buttonClass.length);
+var buttons = document.getElementsByClassName('button'); 
+console.log(buttons);
+console.log(buttons.length);
 
-
-for ( var k = 0 ; k < 4 ; k++) {
-   var butttonClass = document.createElement('button');
-   butttonClass.innerHTML = 'Hello!';
-
-   console.log(butttonClass);
-   alert("Hello!")
+for (var i = 0; i < buttons.length; i++) {
+   console.log(buttons[i].innerHTML);
 }
+
+
+
 
 
 
